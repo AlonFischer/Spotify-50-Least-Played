@@ -1,33 +1,19 @@
-import requests
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
-import json
-import os
-import webbrowser
+#from spotify.spotify import *
+from lastfm.lastfm import *
 
 
-def get_spotify():
-    #GET SPOTIFY API CREDENTIALS
-    with open("secrets.json", "r") as f:
-        credentials = json.load(f)
+def main():
+    ### Spotify ###
+    # Get token from spotify to make requests
+    #token = get_spotify_token()
+    #spotify_saved_songs = get_spotify_saved_songs(token)
 
-    os.environ["SPOTIPY_CLIENT_ID"] = credentials["Spotify_Client_ID"]
-    os.environ["SPOTIPY_CLIENT_SECRET"] = credentials["Spotify_Client_Secret"]
-    os.environ["SPOTIPY_REDIRECT_URI"] = credentials["Spotify_Redirect_Url"]
-    SCOPE = 'user-library-read playlist-modify-public'
+    ### LastFM ###
+    get_lastfm_top_tracks()
 
-
-    #GET SPOTIFY TOKEN
-    token = spotipy.util.prompt_for_user_token(credentials["Spotify_Client_ID"], SCOPE)
-
-    login = "https://accounts.spotify.com/authorize?scope=" + SCOPE + "&redirect_uri=" + credentials["Spotify_Redirect_Url"] + "&response_type=code&client_id=" + credentials["Spotify_Client_ID"]
-    webbrowser.open(login)
-
-    if token:
-        print("got token")
-        print(token)
-    else:
-        print("Can't get token")
+    ### LastFM ###
 
 
-get_spotify()
+#Run code
+if __name__=="__main__": 
+    main() 
