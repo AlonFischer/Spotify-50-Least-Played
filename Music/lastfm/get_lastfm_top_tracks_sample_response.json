@@ -1,0 +1,383 @@
+{
+    "toptracks": {
+        "track": [
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "ee066c10-89e9-45f6-8a98-2e371a06b271",
+                "name": "Intro: Singularity",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/BTS",
+                    "name": "BTS",
+                    "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853"
+                },
+                "url": "https://www.last.fm/music/BTS/_/Intro:+Singularity",
+                "duration": "196",
+                "@attr": {
+                    "rank": "1"
+                },
+                "playcount": "26"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "057be0c1-e4a9-47a1-84f2-1e8619810f37",
+                "name": "Le temps des cathédrales",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/Bruno+Pelletier",
+                    "name": "Bruno Pelletier",
+                    "mbid": "e97981e8-2950-430c-bf70-a8d3f9d46213"
+                },
+                "url": "https://www.last.fm/music/Bruno+Pelletier/_/Le+temps+des+cath%C3%A9drales",
+                "duration": "203",
+                "@attr": {
+                    "rank": "2"
+                },
+                "playcount": "24"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "",
+                "name": "Please",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/Colette+Lush",
+                    "name": "Colette Lush",
+                    "mbid": ""
+                },
+                "url": "https://www.last.fm/music/Colette+Lush/_/Please",
+                "duration": "192",
+                "@attr": {
+                    "rank": "3"
+                },
+                "playcount": "24"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "",
+                "name": "Girl, Interrupted",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/2xxx!",
+                    "name": "2xxx!",
+                    "mbid": ""
+                },
+                "url": "https://www.last.fm/music/2xxx!/_/Girl,+Interrupted",
+                "duration": "0",
+                "@attr": {
+                    "rank": "4"
+                },
+                "playcount": "23"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "6fb3ed41-5194-4bd1-b14a-adf11d42a88f",
+                "name": "Too Good",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/Christian+Kuria",
+                    "name": "Christian Kuria",
+                    "mbid": "b8d45ed6-5a81-41d5-a59c-ea92aab9c722"
+                },
+                "url": "https://www.last.fm/music/Christian+Kuria/_/Too+Good",
+                "duration": "277",
+                "@attr": {
+                    "rank": "5"
+                },
+                "playcount": "23"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "",
+                "name": "You, Clouds, Rain",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/Heize",
+                    "name": "Heize",
+                    "mbid": "8cea34d9-e1a5-4a92-87da-de947f741fe6"
+                },
+                "url": "https://www.last.fm/music/Heize/_/You,+Clouds,+Rain",
+                "duration": "205",
+                "@attr": {
+                    "rank": "6"
+                },
+                "playcount": "23"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "325b18da-a192-4ddb-b1cd-f2bf64f06376",
+                "name": "go with u",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/BAYNK",
+                    "name": "BAYNK",
+                    "mbid": "27c8c7f6-0609-433e-bbf7-398da6ba2d12"
+                },
+                "url": "https://www.last.fm/music/BAYNK/_/go+with+u",
+                "duration": "0",
+                "@attr": {
+                    "rank": "7"
+                },
+                "playcount": "22"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "",
+                "name": "NARCOTICS",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/CHLOBOCOP",
+                    "name": "CHLOBOCOP",
+                    "mbid": ""
+                },
+                "url": "https://www.last.fm/music/CHLOBOCOP/_/NARCOTICS",
+                "duration": "141",
+                "@attr": {
+                    "rank": "8"
+                },
+                "playcount": "22"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "c1d13062-56d1-4a55-9553-1cce6e1e62d5",
+                "name": "bath",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/offonoff",
+                    "name": "offonoff",
+                    "mbid": "a3656c7a-5a7c-4e68-a903-5fcabcf36481"
+                },
+                "url": "https://www.last.fm/music/offonoff/_/bath",
+                "duration": "261",
+                "@attr": {
+                    "rank": "9"
+                },
+                "playcount": "22"
+            },
+            {
+                "streamable": {
+                    "fulltrack": "0",
+                    "#text": "0"
+                },
+                "mbid": "",
+                "name": "Vete",
+                "image": [
+                    {
+                        "size": "small",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "medium",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "large",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    },
+                    {
+                        "size": "extralarge",
+                        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+                    }
+                ],
+                "artist": {
+                    "url": "https://www.last.fm/music/Biig+Piig",
+                    "name": "Biig Piig",
+                    "mbid": "b618a5f3-085d-4966-887f-6d264c61524a"
+                },
+                "url": "https://www.last.fm/music/Biig+Piig/_/Vete",
+                "duration": "224",
+                "@attr": {
+                    "rank": "10"
+                },
+                "playcount": "21"
+            }
+        ],
+        "@attr": {
+            "perPage": "10",
+            "totalPages": "2481",
+            "page": "1",
+            "total": "24805",
+            "user": "Ace6909"
+        }
+    }
+}

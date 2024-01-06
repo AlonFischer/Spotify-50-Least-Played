@@ -1,5 +1,4 @@
-#from spotify.spotify import *
-from lastfm.lastfm import *
+from Music import *
 
 
 def main():
