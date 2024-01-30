@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "50 Least",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "C:\\Users\\Alon\\OneDrive\\Documents\\Code\\Personal Projects\\Spotify-50-Least-Played\\50least.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

@@ -1,24 +1,20 @@
+from typing import List
 import requests
 import json
+from song import Song
 
-#TODO fix this, import from parent class
-import sys
-sys.path.append("...")
-
-from ... import *
-
-def get_lastfm_top_tracks():
+def get_lastfm_top_tracks() -> List[Song]:
     #define headers and URL
     page = 1
     limit = 1000
 
-    with open("./lastfm/lastfmSecrets.json", "r") as f:
+    with open("./Music/lastfm/lastfmSecrets.json", "r") as f:
         credentials = json.load(f)
 
     print("Getting LastFM Top Tracks")
 
     headers = { 'user-agent': credentials["LastFM_USER_AGENT"]}
-    topTracks = []
+    topTracks = list()
     print(topTracks)
     while(True):
         payload = {
@@ -35,11 +31,10 @@ def get_lastfm_top_tracks():
         if response.json()['toptracks']['track']:
             print("Found: " + str(page * limit) + " / " + str(response.json()['toptracks']['@attr']['total']) + " songs")
             page += 1
-            track = response.json()['toptracks']['track'][0]
-            print(track)
-            topTracks.append(Song(track['artist'], track['name'], track['playcount']) for track in response.json()['toptracks']['track'])
+            tracksAsSongs = [Song(t['name'], t['artist']['name'], t['playcount']) for t in response.json()['toptracks']['track']]
+            topTracks.extend(tracksAsSongs)
         else:
             print("DONE")
             break
-
-        print(topTracks[0])
+    
+    return topTracks
