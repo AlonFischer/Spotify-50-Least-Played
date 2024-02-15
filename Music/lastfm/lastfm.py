@@ -15,7 +15,6 @@ def get_lastfm_top_tracks() -> List[Song]:
 
     headers = { 'user-agent': credentials["LastFM_USER_AGENT"]}
     topTracks = list()
-    print(topTracks)
     while(True):
         payload = {
 			'api_key': credentials["LastFM_API_KEY"],
@@ -31,7 +30,7 @@ def get_lastfm_top_tracks() -> List[Song]:
         if response.json()['toptracks']['track']:
             print("Found: " + str(page * limit) + " / " + str(response.json()['toptracks']['@attr']['total']) + " songs")
             page += 1
-            tracksAsSongs = [Song(t['name'], t['artist']['name'], t['playcount']) for t in response.json()['toptracks']['track']]
+            tracksAsSongs = [Song(t['name'], t['artist']['name'], t['playcount'], "") for t in response.json()['toptracks']['track']]
             topTracks.extend(tracksAsSongs)
         else:
             print("DONE")

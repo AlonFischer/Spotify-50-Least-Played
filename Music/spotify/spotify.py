@@ -15,7 +15,7 @@ def get_spotify_token() -> str:
     os.environ["SPOTIPY_CLIENT_ID"] = credentials["Spotify_Client_ID"]
     os.environ["SPOTIPY_CLIENT_SECRET"] = credentials["Spotify_Client_Secret"]
     os.environ["SPOTIPY_REDIRECT_URI"] = credentials["Spotify_Redirect_Url"]
-    SCOPE = 'user-library-read playlist-modify-public playlist-modify-private'
+    SCOPE = 'user-library-read playlist-modify-private'
 
 
     #GET SPOTIFY TOKEN
@@ -55,7 +55,7 @@ def get_spotify_saved_songs(token: str) -> List[Song]:
         name = track['name']
         artist =  track['artists'][0]['name']
 
-        songs.append(Song(name, artist, 0))
+        songs.append(Song(name, artist, 0, track['uri']))
     #################################
 
     return songs
@@ -64,14 +64,13 @@ def replacePlaylistSongs(token: str, songs: List[Song]):
     sp = spotipy.Spotify(auth=token)
 
     # check if playlist already exists
-    playlists = sp.current_user_playlists()
+    playlists = getAllUserPlaylists(sp)
     current_user_info = sp.current_user()
     current_username = current_user_info['id']
 
-    
     exists = False
     playlist_to_replace = None
-    for playlist in playlists['items']:
+    for playlist in playlists:
         print(playlist['name'])
         if playlist['name'] == "50 Least Played":
             exists = True
@@ -83,4 +82,21 @@ def replacePlaylistSongs(token: str, songs: List[Song]):
         playlist_to_replace = sp.user_playlist_create(user=current_username, name="50 Least Played", public=False)
 
     #TODO replace all the songs in the playlist with 'songs'
-    sp.playlist_replace_items(playlist_to_replace)
+    uris = [song.uri for song in songs]
+    sp.playlist_replace_items(playlist_to_replace['uri'], uris)
+
+
+
+    # sp.playlist_add_items(playlist_to_replace, uris)
+
+# TODO fix this - doesnt grab all playlists for some reason
+def getAllUserPlaylists(sp):
+    playlists = []
+    results = sp.current_user_playlists(limit=50)
+    playlists.extend(results['items'])
+
+    while results['next']:
+        results = sp.next(results)
+        playlists.extend(results['items'])
+
+    return playlists
