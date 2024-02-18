@@ -81,7 +81,7 @@ def replacePlaylistSongs(token: str, songs: List[Song]):
     if exists != True:
         playlist_to_replace = sp.user_playlist_create(user=current_username, name="50 Least Played", public=False)
 
-    #TODO replace all the songs in the playlist with 'songs'
+    #replace all the songs in the playlist with 'songs'
     uris = [song.uri for song in songs]
     sp.playlist_replace_items(playlist_to_replace['uri'], uris)
 
